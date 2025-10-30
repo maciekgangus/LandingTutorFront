@@ -61,7 +61,7 @@
               variant="outline"
               size="lg"
               href="#program"
-              class="!border-2 !border-white !text-white hover:!bg-white/20"
+              class="!border-2 !border-white !text-white !bg-white/10 backdrop-blur-sm hover:!bg-white hover:!text-purple-600 transition-all duration-300"
             >
               Zobacz program
             </UiButton>
@@ -69,19 +69,19 @@
 
           <!-- Quick Stats -->
           <div
-            class="grid grid-cols-3 gap-6 max-w-2xl mx-auto bg-white/10 backdrop-blur-md rounded-2xl p-6"
+            class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto bg-white/10 backdrop-blur-md rounded-2xl p-6"
           >
-            <div>
-              <div class="text-3xl font-bold text-green-400">92%</div>
+            <div class="text-center">
+              <div class="text-3xl lg:text-4xl font-bold text-green-400 mb-1">92%</div>
               <div class="text-sm text-purple-100">Zdawalność matury</div>
             </div>
-            <div>
-              <div class="text-3xl font-bold text-green-400">4.9/5</div>
+            <div class="text-center">
+              <div class="text-3xl lg:text-4xl font-bold text-green-400 mb-1">4.9/5</div>
               <div class="text-sm text-purple-100">Ocena uczniów</div>
             </div>
-            <div>
-              <div class="text-3xl font-bold text-green-400">300+</div>
-              <div class="text-sm text-purple-100">Godzin lekcji</div>
+            <div class="text-center">
+              <div class="text-3xl lg:text-4xl font-bold text-green-400 mb-1">15+</div>
+              <div class="text-sm text-purple-100">Projektów w portfolio</div>
             </div>
           </div>
         </div>
@@ -222,7 +222,7 @@
                     Matura rozszerzona z informatyki
                   </h3>
                   <p class="text-gray-600 text-sm">
-                    Kompleksowe przygotowanie do egzaminu - PW, AGH, UW, Gdańsk
+                    Kompleksowe przygotowanie do egzaminu - najlepsze uczelnie techniczne
                   </p>
                 </div>
               </div>
@@ -293,7 +293,7 @@
               </ul>
               <div class="mt-6 p-4 bg-green-50 rounded-lg">
                 <p class="text-sm text-green-900 font-semibold">
-                  ⭐ Średni wynik naszych uczniów: 88%
+                  ⭐ Średni wynik naszych uczniów: 88% (PW, AGH, UW, Gdańsk)
                 </p>
               </div>
             </div>
@@ -637,6 +637,21 @@
             </div>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+    <!-- Advanced Specializations -->
+    <section class="section-padding bg-white">
+      <div class="container-custom">
+        <div class="text-center mb-16">
+          <h2 class="heading-lg text-gray-900 mb-4">Zaawansowane specjalizacje</h2>
+          <p class="text-large text-gray-600 max-w-3xl mx-auto">
+            Rozwiń swoje umiejętności w najgorętszych dziedzinach IT
+          </p>
+        </div>
+
+        <div class="max-w-4xl mx-auto space-y-6">
           <!-- AI/ML -->
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
             <button
@@ -669,7 +684,7 @@
                 ></path>
               </svg>
             </button>
-            <div v-show="openLevel === 'aiml'" class="px-8 pb-6">
+            <div v-show="openLevel === 'aiml'" class="px-8 pb-6 py-4">
               <ul class="grid md:grid-cols-2 gap-3 text-gray-700">
                 <li class="flex items-center gap-2">
                   <span class="text-green-600">•</span> Podstawy ML i Deep
@@ -924,7 +939,7 @@
         </div>
 
         <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <div class="bg-gray-50 rounded-2xl p-6">
+          <div class="bg-white rounded-2xl p-6 shadow-lg">
             <div class="flex items-center gap-1 mb-4">
               <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
             </div>
@@ -936,7 +951,7 @@
             <div class="text-sm text-gray-600">Politechnika Warszawska</div>
           </div>
 
-          <div class="bg-gray-50 rounded-2xl p-6">
+          <div class="bg-white rounded-2xl p-6 shadow-lg">
             <div class="flex items-center gap-1 mb-4">
               <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
             </div>
@@ -949,7 +964,7 @@
             <div class="text-sm text-gray-600">Junior Python Developer</div>
           </div>
 
-          <div class="bg-gray-50 rounded-2xl p-6">
+          <div class="bg-white rounded-2xl p-6 shadow-lg">
             <div class="flex items-center gap-1 mb-4">
               <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
             </div>

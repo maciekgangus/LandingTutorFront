@@ -1,0 +1,95 @@
+subjects:
+  - id: matematyka
+    name: Matematyka
+    description: Korepetycje z matematyki na wszystkich poziomach - od podstaw po studia. Przygotowanie do matury, egzaminów wstępnych i zajęć na uczelni.
+    icon: /images/icons/math.svg
+    levels:
+      - podstawowy
+      - średni
+      - matura
+      - studia
+    priceFrom: 45
+    link: /matematyka
+
+  - id: fizyka
+    name: Fizyka
+    description: Nauka fizyki dostosowana do wieku i poziomu ucznia. Praktyczne doświadczenia i jasne wyjaśnienie trudnych zagadnień.
+    icon: /images/icons/physics.svg
+    levels:
+      - gimnazjum
+      - liceum
+      - matura
+    priceFrom: 50
+    link: /fizyka
+
+  - id: chemia
+    name: Chemia
+    description: Korepetycje z chemii z naciskiem na praktyczne zastosowanie. Przygotowanie do matury na poziomie podstawowym i rozszerzonym.
+    icon: /images/icons/chemistry.svg
+    levels:
+      - podstawowy
+      - rozszerzony
+      - matura
+    priceFrom: 50
+    link: /chemia
+
+  - id: informatyka
+    name: Informatyka
+    description: Nauka programowania, przygotowanie do matury z informatyki oraz podstawy technologii informatycznych.
+    icon: /images/icons/computer.svg
+    levels:
+      - podstawy
+      - programowanie
+      - matura
+    priceFrom: 55
+    link: /informatyka
+
+  - id: angielski
+    name: Język angielski
+    description: Nauka języka angielskiego na wszystkich poziomach, przygotowanie do certyfikatów FCE, CAE oraz matury.
+    icon: /images/icons/english.svg
+    levels:
+      - A1
+      - A2
+      - B1
+      - B2
+      - C1
+      - C2
+      - matura
+      - FCE
+      - CAE
+    priceFrom: 40
+    link: /angielski
+
+  - id: biologia
+    name: Biologia
+    description: Korepetycje z biologii obejmujące wszystkie działy - od podstaw po poziom rozszerzony i przygotowanie do matury.
+    icon: /images/icons/biology.svg
+    levels:
+      - podstawowy
+      - rozszerzony
+      - matura
+    priceFrom: 45
+    link: /biologia
+
+  - id: polski
+    name: Język polski
+    description: Interpretacja lektur, nauka pisania rozprawek, przygotowanie do matury z języka polskiego oraz poprawa umiejętności językowych.
+    icon: /images/icons/literature.svg
+    levels:
+      - podstawowy
+      - rozszerzony
+      - matura
+    priceFrom: 40
+    link: /polski
+
+  - id: geografia
+    name: Geografia
+    description: Kompleksowe korepetycje z geografii - geografia fizyczna, społeczno-ekonomiczna oraz przygotowanie do matury.
+    icon: /images/icons/geography.svg
+    levels:
+      - podstawowy
+      - rozszerzony
+      - matura
+    priceFrom: 45
+    link: /geografia

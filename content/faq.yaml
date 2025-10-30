@@ -1,0 +1,75 @@
+faq:
+  - id: cennik-godzina
+    question: Ile kosztuje godzina korepetycji?
+    answer: Ceny zaczynają się od 40 zł za godzinę i zależą od przedmiotu, poziomu zaawansowania oraz doświadczenia nauczyciela. Oferujemy także atrakcyjne pakiety dla stałych uczniów.
+    category: cennik
+
+  - id: cennik-pakiety
+    question: Czy oferujecie pakiety korepetycji?
+    answer: Tak, oferujemy pakiety 4, 8 i 12 godzin z rabatem do 15%. Im więcej godzin w pakiecie, tym większy rabat. Pakiety są ważne przez 3 miesiące od zakupu.
+    category: cennik
+
+  - id: organizacja-online
+    question: Czy prowadzicie korepetycje online?
+    answer: Tak, wszystkie nasze korepetycje można prowadzić online przez platformy Zoom, Teams lub Skype. Zapewniamy pełne wsparcie techniczne oraz materiały dostosowane do nauki zdalnej.
+    category: organizacja
+
+  - id: organizacja-miejsce
+    question: Gdzie odbywają się korepetycje stacjonarne?
+    answer: Korepetycje stacjonarne organizujemy u ucznia w domu, w naszych salach w centrum miasta lub w bibliotekach. Wybór miejsca zależy od preferencji ucznia i dostępności nauczyciela.
+    category: organizacja
+
+  - id: organizacja-czas
+    question: Jakie są dostępne godziny zajęć?
+    answer: Zajęcia prowadzimy od poniedziałku do soboty w godzinach 8:00-20:00, a w niedziele 10:00-18:00. Staramy się dostosować harmonogram do potrzeb ucznia i rodziny.
+    category: organizacja
+
+  - id: organizacja-anulowanie
+    question: Jak anulować lub przełożyć zajęcia?
+    answer: Zajęcia można anulować lub przełożyć bez opłaty do 24 godzin przed planowanym terminem. W przypadku anulowania w krótszym czasie pobieramy 50% opłaty za lekcję.
+    category: organizacja
+
+  - id: platnosci-metody
+    question: Jakie są dostępne formy płatności?
+    answer: Akceptujemy płatności gotówką, przelewem bankowym, BLIK-iem oraz kartą płatniczą. Możliwa jest płatność po każdej lekcji lub z góry za cały pakiet zajęć.
+    category: cennik
+
+  - id: platnosci-faktury
+    question: Czy wystawiacie faktury VAT?
+    answer: Tak, wystawiamy faktury VAT dla wszystkich klientów. Faktury można otrzymać drogą elektroniczną lub w wersji papierowej. Współpracujemy z firmami oferującymi korepetycje dla pracowników.
+    category: cennik
+
+  - id: ogolne-materialy
+    question: Czy udostępniacie materiały do nauki?
+    answer: Tak, każdy nauczyciel przygotowuje indywidualne materiały dostosowane do potrzeb ucznia. Udostępniamy także dostęp do naszej biblioteki online z zadaniami, testami i zestawami maturalnymi.
+    category: ogolne
+
+  - id: ogolne-poziom
+    question: Na jakich poziomach prowadzicie korepetycje?
+    answer: Prowadzimy korepetycje od poziomu podstawowego (klasy 4-6 szkoły podstawowej) po poziom akademicki. Specjalizujemy się w przygotowaniu do egzaminów ósmoklasisty, matury oraz egzaminów wstępnych na studia.
+    category: ogolne
+
+  - id: techniczne-platforma
+    question: Jakie wymagania techniczne obowiązują przy zajęciach online?
+    answer: Do zajęć online potrzebny jest komputer lub tablet z kamerą, mikrofonem i stabilnym internetem (min. 5 Mbps). Przed pierwszymi zajęciami przeprowadzamy test połączenia i konfiguracji sprzętu.
+    category: techniczne
+
+  - id: techniczne-wsparcie
+    question: Co w przypadku problemów technicznych podczas lekcji online?
+    answer: Zapewniamy pełne wsparcie techniczne przed i podczas zajęć. W przypadku problemów, które uniemożliwiają przeprowadzenie lekcji, nie pobieramy opłaty i umożliwiamy bezpłatne przełożenie zajęć.
+    category: techniczne
+
+  - id: ogolne-dobor-nauczyciela
+    question: Jak dobieracie nauczyciela do ucznia?
+    answer: Nauczyciela dobieramy na podstawie przedmiotu, poziomu, preferencji ucznia oraz charakterystyki osobowościowej. Jeśli współpraca nie układa się dobrze, bezpłatnie zmieniamy nauczyciela.
+    category: ogolne
+
+  - id: organizacja-okres-wspolpracy
+    question: Na jak długo można umówić korepetycje?
+    answer: Nie ma minimalnego okresu współpracy - można umówić pojedyncze lekcje lub długoterminową współpracę. Większość uczniów korzysta z naszych usług przez cały rok szkolny, szczególnie przed ważnymi egzaminami.
+    category: organizacja
+
+  - id: cennik-dojazd
+    question: Czy pobieracie dodatkowe opłaty za dojazd?
+    answer: W obrębie miasta dojazd jest bezpłatny. Za dojazd poza granice miasta pobieramy opłatę według stawki 1 zł/km. Dokładne koszty ustalamy podczas umawiania pierwszych zajęć.
+    category: cennik

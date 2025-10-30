@@ -71,7 +71,7 @@ const pricingTiers: PricingTier[] = [
     id: 'basic',
     name: 'Podstawowy',
     description: 'Idealne dla uczniów szkół podstawowych',
-    price: 45,
+    price: 60,
     features: [
       'Lekcje indywidualne',
       'Materiały edukacyjne',
@@ -83,7 +83,7 @@ const pricingTiers: PricingTier[] = [
     id: 'standard',
     name: 'Standard',
     description: 'Najlepszy wybór dla licealistów',
-    price: 65,
+    price: 70,
     popular: true,
     features: [
       'Wszystko z pakietu Podstawowego',
@@ -97,7 +97,7 @@ const pricingTiers: PricingTier[] = [
     id: 'premium',
     name: 'Premium',
     description: 'Dla studentów i zaawansowanych',
-    price: 85,
+    price: 80,
     features: [
       'Wszystko z pakietu Standard',
       'Przygotowanie do egzaminów',

@@ -39,7 +39,7 @@
           <ul class="space-y-3">
             <li><a href="/#about" class="text-gray-300 hover:text-white transition-colors">O nas</a></li>
             <li><a href="/#subjects" class="text-gray-300 hover:text-white transition-colors">Przedmioty</a></li>
-            <li><a href="/#teachers" class="text-gray-300 hover:text-white transition-colors">Nauczyciele</a></li>
+            <li><a href="/nauczyciele" class="text-gray-300 hover:text-white transition-colors">Nauczyciele</a></li>
             <li><a href="/#pricing" class="text-gray-300 hover:text-white transition-colors">Cennik</a></li>
             <li><a href="/#reviews" class="text-gray-300 hover:text-white transition-colors">Opinie</a></li>
             <li><a href="/#contact" class="text-gray-300 hover:text-white transition-colors">Kontakt</a></li>

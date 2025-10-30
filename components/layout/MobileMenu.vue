@@ -80,7 +80,7 @@ defineEmits<{
 const navigation: NavigationItem[] = [
   { name: "O nas", href: "/#about" },
   { name: "Przedmioty", href: "/#subjects" },
-  { name: "Nauczyciele", href: "/#teachers" },
+  { name: "Nauczyciele", href: "/nauczyciele" },
   { name: "Cennik", href: "/#pricing" },
   { name: "Opinie", href: "/#reviews" },
   { name: "Kontakt", href: "/#contact" },

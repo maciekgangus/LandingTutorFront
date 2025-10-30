@@ -1,0 +1,28 @@
+teachers:
+  - id: "1"
+    name: Maciej Leśniak
+    photo: /images/teachers/teacher-1.jpg
+    subjects:
+      - Matematyka
+      - Informatyka
+    experience: 5
+    education: Akademia Górniczo Hutnicza, Kraków
+    description: Specjalizuje się w przygotowaniu licealistów do matury oraz studentów do egzaminów na studia techniczne. Prowadzi zajęcia wyłącznie dla liceum i uczelni wyższych.
+
+  - id: "2"
+    name: Mateusz Michalski
+    photo: /images/teachers/teacher-2.jpg
+    subjects:
+      - Matematyka
+    experience: 4
+    education: Politechnika Gdańska
+    description: Doświadczony nauczyciel matematyki, prowadzi zajęcia zarówno w szkole podstawowej, jak i liceum. Z pasją przygotowuje uczniów do sprawdzianów oraz matury.
+
+  - id: "3"
+    name: Vanessa
+    photo: /images/teachers/teacher-3.jpg
+    subjects:
+      - Język angielski
+    experience: 10
+    education: Native speaker, Certyfikat TEFL
+    description: Rodzima użytkowniczka języka z wieloletnim doświadczeniem w nauczaniu.

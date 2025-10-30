@@ -1,0 +1,71 @@
+reviews:
+  - id: review-1
+    name: Marta K.
+    photo: /images/reviews/marta-k.jpg
+    rating: 5
+    comment: Dzięki korepetycjom z matematyki u Pani Anny zdałam maturę na 84%. Pani Anna ma niesamowity dar tłumaczenia skomplikowanych zagadnień w prosty sposób. Gorąco polecam!
+    subject: matematyka
+    date: 2024-06-15
+
+  - id: review-2
+    name: Jakub M.
+    rating: 5
+    comment: Korepetycje z informatyki u Pana Piotra to była najlepsza inwestycja w moją edukację. Nauczyłem się programowania od podstaw i teraz studiuję informatykę. Bardzo profesjonalne podejście!
+    subject: informatyka
+    date: 2024-08-22
+
+  - id: review-3
+    name: Aleksandra T.
+    rating: 4
+    comment: Pani Magdalena świetnie przygotowała mnie do egzaminu FCE. Jej metody nauki są bardzo efektywne, a atmosfera na zajęciach zawsze przyjazna. Zdałam egzamin za pierwszym razem!
+    subject: angielski
+    date: 2024-05-10
+
+  - id: review-4
+    name: Michał P.
+    rating: 5
+    comment: Korepetycje z chemii u Pana Tomasza zmieniły moje podejście do tego przedmiotu. Wcześniej nie rozumiałem chemii, a teraz to jeden z moich ulubionych przedmiotów. Polecam każdemu!
+    subject: chemia
+    date: 2024-03-08
+
+  - id: review-5
+    name: Natalia W.
+    rating: 5
+    comment: Pani Katarzyna pomogła mi przygotować się do matury z języka polskiego. Dzięki jej wskazówkom moja rozprawka była bardzo dobra. Otrzymałam 88% z matury rozszerzonej!
+    subject: polski
+    date: 2024-07-03
+
+  - id: review-6
+    name: Adam L.
+    rating: 4
+    comment: Pan Marcin świetnie tłumaczy fizykę. Jego eksperymenty i praktyczne przykłady sprawiają, że fizyka staje się zrozumiała. Moja ocena poprawiła się z 2 na 5!
+    subject: fizyka
+    date: 2024-04-18
+
+  - id: review-7
+    name: Karolina S.
+    rating: 5
+    comment: Pani Joanna doskonale przygotowała mnie do matury z biologii. Jej wiedza jest ogromna, a sposób prowadzenia zajęć bardzo angażujący. Zdałam maturę rozszerzoną na 92%!
+    subject: biologia
+    date: 2024-06-28
+
+  - id: review-8
+    name: Tomasz G.
+    rating: 5
+    comment: Korepetycje z informatyki u Pana Rafała to prawdziwa szkoła programowania. Nauczyłem się nie tylko teorii, ale także praktycznych umiejętności. Teraz pracuję jako junior developer!
+    subject: informatyka
+    date: 2024-09-12
+
+  - id: review-9
+    name: Weronika H.
+    rating: 4
+    comment: Dzięki korepetycjom z geografii u Pani Katarzyny zdałam maturę na poziomie rozszerzonym. Pani Katarzyna ma dar przekazywania wiedzy w sposób przystępny i ciekawy.
+    subject: geografia
+    date: 2024-05-25
+
+  - id: review-10
+    name: Paweł K.
+    rating: 5
+    comment: Pan Piotr nie tylko nauczył mnie programowania, ale także pokazał, jak rozwiązywać problemy algorytmiczne. Zajęłem 3. miejsce w olimpiadzie informatycznej!
+    subject: informatyka
+    date: 2023-12-14

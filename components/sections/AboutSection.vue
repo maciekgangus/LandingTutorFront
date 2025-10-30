@@ -1,21 +1,86 @@
 <template>
-  <section id="about" class="section-padding bg-white">
-    <div class="container-custom">
-      <div class="text-center mb-16">
-        <h2 class="heading-lg text-gray-900 mb-4">Dlaczego właśnie my?</h2>
-        <p class="text-large text-gray-600 max-w-3xl mx-auto">
+  <section id="about" class="py-section bg-gradient-to-b from-white to-gray-50/50 relative overflow-hidden">
+    <!-- Background decorative elements -->
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute top-20 left-10 w-32 h-32 bg-blue-100/30 rounded-full mix-blend-multiply filter blur-xl animate-float"></div>
+      <div class="absolute bottom-20 right-10 w-40 h-40 bg-purple-100/30 rounded-full mix-blend-multiply filter blur-xl animate-float animation-delay-300"></div>
+    </div>
+
+    <div class="container-custom relative z-10">
+      <div class="text-center mb-16 animate-on-scroll">
+        <span class="inline-block px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium mb-4 border border-blue-100">
+          💡 Nasze podejście
+        </span>
+        <h2 class="heading-lg text-gray-900 mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-gray-900 bg-clip-text text-transparent">
+          Dlaczego właśnie my?
+        </h2>
+        <p class="text-large text-gray-600 max-w-3xl mx-auto leading-relaxed">
           Łączymy świeże spojrzenie absolwentów z wieloletnim doświadczeniem w korepetycjach.
-          Rozumiemy wyzwania współczesnej edukacji, bo sami przez nie przeszliśmy niedawno.
+          Rozumiemy wyzwania współczesnej edukacji, bo
+          <span class="font-semibold text-gray-800">sami przez nie przeszliśmy niedawno</span>.
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div v-for="feature in features" :key="feature.title" class="card text-center group hover:shadow-xl transition-shadow duration-300">
-          <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-            <div v-html="feature.icon" class="w-8 h-8 text-blue-600"></div>
+        <div
+          v-for="(feature, index) in features"
+          :key="feature.title"
+          class="group relative"
+          :class="`animate-on-scroll animation-delay-${(index + 1) * 100}`"
+        >
+          <!-- Card with enhanced design -->
+          <div class="relative h-full bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-100/50 shadow-soft hover:shadow-large transition-all duration-500 hover:-translate-y-2 hover:scale-105 transform-gpu group-hover:border-blue-200">
+            <!-- Gradient overlay on hover -->
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-50/0 to-purple-50/0 group-hover:from-blue-50/50 group-hover:to-purple-50/30 rounded-2xl transition-all duration-500"></div>
+
+            <!-- Icon container with enhanced animation -->
+            <div class="relative z-10 w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-md group-hover:shadow-lg">
+              <div class="relative">
+                <div v-html="feature.icon" class="w-8 h-8 text-blue-600 group-hover:text-blue-700 transition-colors duration-300"></div>
+                <!-- Glow effect on hover -->
+                <div class="absolute inset-0 bg-blue-400/20 rounded-lg blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="relative z-10 text-center">
+              <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-800 transition-colors duration-300">
+                {{ feature.title }}
+              </h3>
+              <p class="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                {{ feature.description }}
+              </p>
+            </div>
+
+            <!-- Subtle animation indicator -->
+            <div class="absolute top-4 right-4 w-2 h-2 bg-blue-400 rounded-full opacity-0 group-hover:opacity-100 animate-pulse transition-opacity duration-500"></div>
           </div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ feature.title }}</h3>
-          <p class="text-gray-600 leading-relaxed">{{ feature.description }}</p>
+        </div>
+      </div>
+
+      <!-- Call to action at the bottom -->
+      <div class="text-center mt-16 animate-on-scroll animation-delay-700">
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl p-8 max-w-4xl mx-auto border border-blue-100/50 shadow-soft">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">
+            Przekonaj się sam 🚀
+          </h3>
+          <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
+            Pierwsza lekcja jest zawsze za darmo. Bez zobowiązań, bez ukrytych kosztów.
+            Po prostu sprawdź, czy nasze podejście przypadnie Ci do gustu.
+          </p>
+          <UiButton
+            variant="primary"
+            size="lg"
+            href="#contact"
+            class="hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
+          >
+            <span class="flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              Zacznij już dziś
+            </span>
+          </UiButton>
         </div>
       </div>
     </div>
@@ -23,6 +88,22 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted, nextTick } from 'vue'
+
+// Initialize scroll animations
+const { registerElements } = useScrollAnimation()
+
+onMounted(async () => {
+  await nextTick()
+  // Register all elements with animate-on-scroll class
+  registerElements('.animate-on-scroll', 'fade-up', 100)
+
+  // Alternative: Trigger animations immediately for testing
+  // Comment out the line above and uncomment below if scroll detection isn't working
+  // const elements = document.querySelectorAll('.animate-on-scroll')
+  // elements.forEach(el => el.classList.add('in-view'))
+})
+
 const features = [
   {
     title: 'Mówimy Twoim językiem',

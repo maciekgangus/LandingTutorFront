@@ -107,7 +107,7 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
   { name: "O nas", href: "#about" },
   { name: "Przedmioty", href: "#subjects" },
-  { name: "Nauczyciele", href: "#teachers" },
+  { name: "Nauczyciele", href: "/nauczyciele" },
   { name: "Cennik", href: "#pricing" },
   { name: "Kontakt", href: "#contact" },
 ];

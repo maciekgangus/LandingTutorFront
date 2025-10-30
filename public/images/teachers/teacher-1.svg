@@ -1,0 +1,6 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f87171"/>
+  <circle cx="100" cy="70" r="30" fill="#ffffff" opacity="0.8"/>
+  <path d="M60 120 Q100 100 140 120 L140 160 Q100 140 60 160 Z" fill="#ffffff" opacity="0.8"/>
+  <text x="100" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Maciej L.</text>
+</svg>

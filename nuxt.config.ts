@@ -62,7 +62,7 @@ export default defineNuxtConfig({
   },
 
   // CSS framework
-  css: ["@/assets/css/main.css"],
+  css: ["@/assets/css/main.css", "@/assets/css/animations.css"],
 
   // Modules
   modules: [
